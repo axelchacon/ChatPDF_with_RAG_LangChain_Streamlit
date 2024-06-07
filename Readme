@@ -1,0 +1,39 @@
+Paso 1: Verificar versión Python
+-python3 --version
+
+Paso 2: Instlar PIP
+-ingresar tu password for axelprogramador2023
+-sudo apt install python3-pip
+
+Paso 3: Instalar streamlit
+-pip install streamlit
+
+Paso 4: Lanzamiento de the Streamlit Hello example "app.py" para verificar que funciona
+-python3 -m streamlit hello
+
+Paso 5: Ya funcionando Streamlit, podemos hacer funcionar otros archivos .py. En este caso, para este proyecto de RAG con LangChain
+-python3 -m streamlit run MistralOk.py ( si hacemos esto, está mal. Veremos que desde acá nuestro archivo MistralOk.py está funcionando mal porque nos falta descragar otros comandos según nuestro código)
+
+- pip install langchain
+
+Paso 6: Para Module langchain_community.document_loaders
+
+- pip install -U langchain-community (Ya se ve como el "Frond end")
+
+Paso 7: tener pypdf package
+
+- pip install pypdf
+
+Paso 8: openai python package
+-pip install openai
+
+Paso 9: import chromadb python package
+
+- pip install chromadb
+
+Paso 10: import tiktoken python package
+
+- pip install tiktoken
+  Paso 11: Poner el token de OpenAi, subir el PDF y preguntar al chat sobre tu PDF. Correr o hacer "run" y ya puedes usar RAG con LangChain con Python con Streamlit con el código producido por CodeMistral de Mistral AI
+  -ver la imagen image.pg que es el resultado final y poner el comando de abajo en el terminal
+- python3 -m streamlit run MistralOk.py
